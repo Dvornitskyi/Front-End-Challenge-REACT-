@@ -1,0 +1,55 @@
+.headers {
+  width: 100vw;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+}
+.headers__logo {
+  width: 115px;
+  height: 45px;
+}
+.headers__section {
+  width: 1180px;
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headers__menu {
+  display: flex;
+  width: 227px;
+  justify-content: space-between;
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: #63718e;
+}
+.headers__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 666px;
+  height: 35px;
+}
+.headers__content-phone-a {
+  display: flex;
+  align-items: center;
+}
+.headers__buttons {
+  display: flex;
+  width: 227px;
+  justify-content: space-between;
+}
+.headers__buttons-download {
+  width: 113px;
+  background: #c774ee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 35px;
+}
+.headers__buttons-singUp {
+  width: 103px;
+  height: 35px;
+  border: 2px solid #63718e;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
