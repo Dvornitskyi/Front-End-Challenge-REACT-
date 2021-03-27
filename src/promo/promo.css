@@ -1,0 +1,69 @@
+.promo {
+  width: 100vw;
+  height: 856px;
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+.promo__section {
+  width: 1180px;
+  height: 856px;
+}
+.promo__components {
+  width: 598px;
+  height: 415px;
+  margin-top: 198px;
+}
+.promo__btn {
+  width: 280px;
+  height: 53px;
+  background: #c774ee;
+  border-radius: 10px;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-top: 46.5px;
+}
+.promo__title {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 120%;
+  color: #111563;
+}
+.promo__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+}
+.promo__section-image {
+  position: relative;
+  max-width: 100%;
+  overflow: visible;
+  /* overflow-x: hidden; */
+}
+.promo__iMac {
+  position: absolute;
+  z-index: 2;
+  top: 75px;
+  /* left: 0px; */
+  right: -205px;
+  overflow: visible;
+  width: 889px;
+  height: 667px;
+}
+.promo__image {
+  width: 682px;
+  height: 646px;
+  position: absolute;
+  z-index: 1;
+  top: 72px;
+  /* left: 0px; */
+  right: -100px;
+  overflow: visible;
+}
