@@ -1,0 +1,98 @@
+.section {
+  width: 100vw;
+  height: 680px;
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+.section__section {
+  width: 1180px;
+  height: 680px;
+  display: flex;
+}
+.section__components {
+  width: 585px;
+  height: 304px;
+  margin-top: 198px;
+}
+.section__btn {
+  width: 180px;
+  height: 53px;
+  background: #c774ee;
+  border-radius: 10px;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.section__title {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 120%;
+  color: #111563;
+}
+.section__text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+}
+.section__section-image {
+  width: 736px;
+  height: 552px;
+  overflow: visible;
+  position: relative;
+}
+.section__watch {
+  overflow: visible;
+  width: 531px;
+  height: 513px;
+  position: absolute;
+  z-index: 2;
+  top: 153px;
+  left: -10px;
+}
+.section__image {
+  overflow: visible;
+  width: 736px;
+  height: 552px;
+  position: absolute;
+  z-index: 1;
+  top: 193px;
+  left: -120px;
+}
+.section__card {
+  width: 380px;
+  height: 214px;
+  position: absolute;
+  z-index: 3;
+  top: 462px;
+  right: 110px;
+  background: #ffffff;
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+  border-radius: 8px;
+}
+.section__card-header {
+  display: flex;
+  justify-content: space-between;
+  width: 132px;
+  height: 60px;
+}
+.section__card-icon {
+}
+.section__card-title {
+}
+.section__card-text {
+  width: 324px;
+  height: 96px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  size: 16px;
+  line-height: 24px;
+  margin-left: 35px;
+}
