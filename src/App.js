@@ -3,6 +3,7 @@ import './App.css';
 import Header from './headers/headers.js';
 import Promo from './promo/promo.js';
 import Section from './section/section.js';
+import Reviews from './reviews/reviews.js';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Promo />
       <Section />
+      <Reviews />
     </div> 
   );
 }
