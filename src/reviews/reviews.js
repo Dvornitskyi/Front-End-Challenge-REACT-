@@ -22,7 +22,7 @@ export default function reviews() {
                         <div className="reviews__carusel-footer">
                             <div>
                                 <img className="reviews__carusel-header-image" src=""/> 
-                                <span></span>
+                                <span>1</span>
                             </div>
                             <div>
                                 <a></a><span>|</span><a></a>
